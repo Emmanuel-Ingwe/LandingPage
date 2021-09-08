@@ -163,3 +163,59 @@ h3 {
 	color: hsl(198, 62%, 26%);
 }
 /* END OF SERVICE */
+
+/* CLIENT SECTION */
+.client {
+	flex-direction: column;
+	min-height: 100vh;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.client-h3 {
+	font-size: 20px;
+	letter-spacing: 3px;
+	color: hsl(210, 4%, 67%);
+	padding-bottom: 65px;
+}
+
+.clients {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.client-items {
+	width: 100%;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	padding: 8px;
+}
+
+.client-img {
+	width: 66px;
+	border-radius: 100%;
+}
+
+.p-client {
+	width: 330px;
+}
+
+.client-pp {
+	padding-top: 40px;
+}
+
+.client-h5 {
+	font-size: 19.7px;
+	font-weight: 900;
+	color: hsl(212, 27%, 19%);
+}
+
+.client-p {
+	font-size: 13px;
+	color: hsl(210, 4%, 67%);
+	padding-top: 9px;
+}
+/* END OF CLIENT */
