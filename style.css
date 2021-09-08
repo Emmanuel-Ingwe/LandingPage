@@ -52,8 +52,30 @@ h1 {
 }
 
 .item-text {
-	padding: 110px;
-	padding-top: 180px;
+	width: 50%;
+	padding: 130px;
+}
+
+.service-img {
+	width: 50%;
+	background-image: url(image-transform.jpg);
+}
+
+.service-img2 {
+	width: 50%;
+	background-image: url(image-stand-out.jpg);
+}
+
+.service-img3 {
+	height: 90vh;
+	width: 50%;
+	background-image: url(image-graphic-design.jpg);
+}
+
+.service-img4 {
+	height: 90vh;
+	width: 50%;
+	background-image: url(image-photography.jpg);
 }
 
 h2 {
@@ -64,7 +86,7 @@ h2 {
 
 p {
 	font-size: 16.5px;
-	padding-bottom: 34px;
+	padding-bottom: 44px;
 	color: hsl(210, 7%, 53%);
 	font-weight: 600;
 	line-height: 1.7;
@@ -76,8 +98,18 @@ a {
 	font-weight: 900;
 	color: hsl(212, 27%, 19%);
 	text-decoration: none;
-	top: 66.4rem;
-	left: 7.1rem;
+	top: 63.9rem;
+	left: 8.33rem;
+}
+
+.a1 {
+	position: absolute;
+	font-size: 21px;
+	font-weight: 900;
+	color: hsl(212, 27%, 19%);
+	text-decoration: none;
+	top: 97.9rem;
+	left: 50.55rem;
 }
 
 .bg {
@@ -86,5 +118,48 @@ a {
 	border-radius: 9px;
 	height: 8px;
 	width: 126px;
+}
+
+.bgg {
+	display: inline-block;
+	background-color: hsla(7, 99%, 70%, 0.418);
+	border-radius: 9px;
+	height: 8px;
+	width: 126px;
+}
+
+.second {
+	flex-direction: row-reverse;
+}
+
+.img3-text {
+	width: 100%;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	padding: 170px;
+	padding-top: 390px;
+}
+
+h3 {
+	padding-bottom: 15px;
+	font-size: 28px;
+	color: hsl(167, 40%, 24%);
+}
+
+.h33 {
+	padding-bottom: 19px;
+	font-size: 28px;
+	color: hsl(198, 62%, 26%);
+}
+
+.p-text {
+	font-size: 16px;
+	color: hsl(167, 40%, 24%);
+}
+
+.p-textt {
+	font-size: 15px;
+	color: hsl(198, 62%, 26%);
 }
 /* END OF SERVICE */
