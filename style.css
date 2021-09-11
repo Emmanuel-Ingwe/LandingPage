@@ -219,3 +219,41 @@ h3 {
 	padding-top: 9px;
 }
 /* END OF CLIENT */
+
+/* GALLERY SECTION */
+.gallery {
+	display: flex;
+}
+
+.img1 {
+	height: 20vh;
+	width: 25%;
+}
+
+.img2 {
+	height: 20vh;
+	width: 25%;
+}
+
+.img3 {
+	height: 20vh;
+	width: 25%;
+}
+
+.img4 {
+	height: 20vh;
+	width: 25%;
+}
+
+.imgg { 
+	height: 64vh;
+	width: 53.09vh;
+}
+/* END GALLERY */
+
+/* FOOTER */
+.footer {
+	background-color: hsla(168, 52%, 70%, 0.87);
+}
+
+/* END OF FOOTER */
