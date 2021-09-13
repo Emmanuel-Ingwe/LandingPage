@@ -52,8 +52,9 @@ h1 {
 }
 
 .item-text {
+	height: 90vh;
 	width: 50%;
-	padding: 130px;
+	padding: 170px;
 }
 
 .service-img {
@@ -102,8 +103,8 @@ a {
 	font-weight: 900;
 	color: hsl(212, 27%, 19%);
 	text-decoration: none;
-	top: 65rem;
-	left: 8.34rem;
+	top: 70.77rem;
+	left: 10.8rem;
 }
 
 .a1 {
@@ -112,8 +113,8 @@ a {
 	font-weight: 900;
 	color: hsl(212, 27%, 19%);
 	text-decoration: none;
-	top: 99rem;
-	left: 55.2rem;
+	top: 110.5rem;
+	left: 57.7rem;
 }
 
 .bg {
