@@ -59,23 +59,27 @@ h1 {
 .service-img {
 	width: 50%;
 	background-image: url(image-transform.jpg);
+	background-size: cover;
 }
 
 .service-img2 {
 	width: 50%;
 	background-image: url(image-stand-out.jpg);
+	background-size: cover;
 }
 
 .service-img3 {
 	height: 90vh;
 	width: 50%;
 	background-image: url(image-graphic-design.jpg);
+	background-size: cover;
 }
 
 .service-img4 {
 	height: 90vh;
 	width: 50%;
 	background-image: url(image-photography.jpg);
+	background-size: cover;
 }
 
 h2 {
@@ -98,8 +102,8 @@ a {
 	font-weight: 900;
 	color: hsl(212, 27%, 19%);
 	text-decoration: none;
-	top: 63.9rem;
-	left: 8.33rem;
+	top: 65rem;
+	left: 8.34rem;
 }
 
 .a1 {
@@ -108,8 +112,8 @@ a {
 	font-weight: 900;
 	color: hsl(212, 27%, 19%);
 	text-decoration: none;
-	top: 97.9rem;
-	left: 50.55rem;
+	top: 99rem;
+	left: 55.2rem;
 }
 
 .bg {
@@ -245,7 +249,7 @@ h3 {
 	width: 25%;
 }
 
-.imgg { 
+.imgg {
 	height: 64vh;
 	width: 53.09vh;
 }
@@ -254,6 +258,39 @@ h3 {
 /* FOOTER */
 .footer {
 	background-color: hsla(168, 52%, 70%, 0.87);
+	display: flex;
+	min-height: 96vh;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer-text {
+}
+
+.footer-header {
+	font-size: 40px;
+	text-align: center;
+	color: hsl(167, 40%, 31%);
+	padding-top: 292px;
+	padding-bottom: 10px;
+}
+
+.footer-p {
+	display: flex;
+	justify-content: space-between;
+}
+
+.p {
+	color: hsl(168, 34%, 41%);
+	font-size: 20px;
+	font-weight: 400;
+	padding: 30px;
+	padding-bottom: 100px;
+}
+
+.footer-icon {
+	padding-left: 105px;
 }
 
 /* END OF FOOTER */
