@@ -295,4 +295,15 @@ h3 {
 	padding: 11px;
 }
 
+.nav {
+	background-color: hsl(200deg 100% 62%);
+	display: flex;
+	width: 100%;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: space-between;
+}
+
 /* END OF FOOTER */
