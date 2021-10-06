@@ -336,4 +336,9 @@ h3 {
 	text-transform: uppercase;
 }
 
+.arrow {
+	position: absolute;
+	top: 21rem;
+}
+
 /* END OF FOOTER */
