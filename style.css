@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -7,6 +9,7 @@
 body {
 	overflow-x: 0;
 	font-size: 18px;
+	font-family: 'Barlow', sans-serif;
 }
 
 h1,
@@ -14,6 +17,7 @@ h2,
 h3,
 h4,
 h5 {
+	font-family: 'Fraunces', serif;
 	font-weight: 900;
 }
 
@@ -35,7 +39,7 @@ h1 {
 	position: absolute;
 	letter-spacing: 8px;
 	color: white;
-	font-size: 54px;
+	font-size: 49px;
 	top: 14.5rem;
 	left: 50%;
 	transform: translate(-50%);
@@ -84,13 +88,13 @@ h1 {
 }
 
 h2 {
-	font-size: 44px;
+	font-size: 38px;
 	padding-bottom: 33px;
 	color: hsl(212, 27%, 19%);
 }
 
 p {
-	font-size: 16.5px;
+	font-size: 15.5px;
 	padding-bottom: 44px;
 	color: hsl(210, 7%, 53%);
 	font-weight: 600;
@@ -99,21 +103,21 @@ p {
 
 a {
 	position: absolute;
-	font-size: 21px;
+	font-size: 19px;
 	font-weight: 900;
 	color: hsl(212, 27%, 19%);
 	text-decoration: none;
-	top: 68.2rem;
+	top: 67.2rem;
 	left: 10.8rem;
 }
 
 .a1 {
 	position: absolute;
-	font-size: 21px;
+	font-size: 19px;
 	font-weight: 900;
 	color: hsl(212, 27%, 19%);
 	text-decoration: none;
-	top: 103.9rem;
+	top: 103.1rem;
 	left: 53rem;
 }
 
@@ -148,7 +152,7 @@ a {
 
 h3 {
 	padding-bottom: 15px;
-	font-size: 28px;
+	font-size: 21px;
 	color: hsl(167, 40%, 24%);
 }
 
@@ -209,6 +213,7 @@ h3 {
 }
 
 .client-pp {
+	font-size: 17px;
 	padding-top: 40px;
 }
 
@@ -267,7 +272,7 @@ h3 {
 }
 
 .footer-header {
-	font-size: 40px;
+	font-size: 32px;
 	text-align: center;
 	color: hsl(167, 40%, 31%);
 	padding-top: 299px;
@@ -281,8 +286,8 @@ h3 {
 
 .p {
 	color: hsl(167, 15%, 30%);
-	font-size: 20px;
-	font-weight: 400;
+	font-size: 16px;
+	font-weight: 600;
 	padding: 30px;
 	padding-bottom: 90px;
 }
@@ -306,7 +311,7 @@ h3 {
 
 .nav-header h3 {
 	color: aliceblue;
-	font-size: 40px;
+	font-size: 30px;
 }
 
 .nav-links {
@@ -320,7 +325,7 @@ h3 {
 	padding: 20px;
 	padding-left: 50px;
 	list-style: none;
-	font-size: 20px;
+	font-size: 18px;
 	color: aliceblue;
 }
 
@@ -330,10 +335,11 @@ h3 {
 	background-color: aliceblue;
 	color: hsl(212, 27%, 19%);
 	border-radius: 30px;
-	font-size: 16px;
-	font-weight: 600;
+	font-size: 15px;
 	padding: 17px;
 	text-transform: uppercase;
+	font-family: 'Fraunces', serif;
+	font-weight: 900;
 }
 
 .arrow {
