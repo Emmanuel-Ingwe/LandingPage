@@ -290,6 +290,12 @@ h3 {
 	font-weight: 600;
 	padding: 30px;
 	padding-bottom: 90px;
+	transition: 1s;
+}
+
+.p:hover {
+	color: hsl(167, 77%, 45%);
+	text-shadow: 2px 2px hsl(167, 15%, 30%);
 }
 
 .footer-icon {
@@ -298,6 +304,10 @@ h3 {
 
 .icon {
 	padding: 11px;
+}
+
+.icon:hover {
+	filter: invert(27%) sepia(71%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
 }
 
 .nav {
