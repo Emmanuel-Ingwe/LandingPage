@@ -312,6 +312,11 @@ h3 {
 .nav-header h3 {
 	color: aliceblue;
 	font-size: 30px;
+	transition: 1s;
+}
+
+.nav-header h3:hover {
+	text-shadow: 6px 6px 8px rgb(8, 85, 151);
 }
 
 .nav-links {
@@ -327,6 +332,12 @@ h3 {
 	list-style: none;
 	font-size: 18px;
 	color: aliceblue;
+	transition: 1s;
+}
+
+.nav-links li:hover {
+	cursor: pointer;
+	letter-spacing: 2px;
 }
 
 .oll {
@@ -340,6 +351,14 @@ h3 {
 	text-transform: uppercase;
 	font-family: 'Fraunces', serif;
 	font-weight: 900;
+	transition: 0.9s;
+}
+
+.oll:hover {
+	background-color: rgb(8, 85, 151);
+	color: hsl(213, 31%, 6%);
+	cursor: pointer;
+	letter-spacing: 3px;
 }
 
 .arrow {
