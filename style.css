@@ -322,7 +322,7 @@ h3 {
 .nav-header h3 {
 	color: aliceblue;
 	font-size: 30px;
-	transition: 1s;
+	transition: 1.1s;
 }
 
 .nav-header h3:hover {
